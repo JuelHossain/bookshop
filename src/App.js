@@ -1,3 +1,11 @@
+import Content from "./components/content/Content";
+import Sidebar from "./components/sidebar/Sidebar";
+
 export default function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <div className="h-screen w-screen">
+      <Sidebar />
+      <Content />
+    </div>
+  );
 }
