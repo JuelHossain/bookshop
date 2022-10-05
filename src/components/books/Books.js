@@ -1,6 +1,6 @@
 import { useState } from "react";
+import { books } from "../../utils/books";
 import BookSelf from "./BookSelf";
-import { books } from "./utils/books";
 
 const Books = () => {
   const [booksPerSelf, setBooksPerSelf] = useState(4);
