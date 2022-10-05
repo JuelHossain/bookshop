@@ -1,7 +1,7 @@
 const BookSelf = ({ books }) => {
   console.log(books);
   return (
-    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 bg-pink-200 relative p-4">
+    <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 bg-gray-200 relative p-4">
       {books?.map((book) => (
         <img src={book} alt="books" className="w-30 h-40" />
       ))}
